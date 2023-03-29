@@ -1,25 +1,4 @@
-# README
+[Active Record バリデーション - Railsガイド](https://railsguides.jp/active_record_validations.html#uniqueness)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# category
+[Rails 一意性制約のかけ方｜タケノリ｜note](https://note.com/norio1629/n/ne604267e36fd)
+#mysqlのページわからず
