@@ -1,8 +1,14 @@
 <h3>投稿する</h3>
-<%= form_with model: @post, local: true do |f| %>
+<%= form_with model: @post, local: true do |p| %>
   <p>タイトル</p>
-    <%= f.text_field :name %>
+    <%= p.text_field :name %>
   <p>内容</p>
-    <%= f.text_area :body %>
-  <%= f.submit %>
+    <%= p.text_area :body %><br>
+    <%= p.collection_check_boxes(:tag_ids, Tag.all, :id, :name) do |tag| %> 
+      <%= tag.label do %>
+        <%= tag.check_box %>
+        <%= tag.text %>
+      <% end %>
+    <% end %><br>
+  <%= p.submit %>
 <% end %>
